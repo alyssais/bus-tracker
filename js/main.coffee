@@ -15,7 +15,7 @@ markers = {}
 @initMap = =>
 
   map = new google.maps.Map document.getElementById("map"),
-    center: lat: 55.9411418, lng: -3.2754227
+    center: lat: 55.91065407289999, lng: -3.1422134714844097
     zoom: 12
 
   socket = io.connect("https://bustracker.herokuapp.com:443")
