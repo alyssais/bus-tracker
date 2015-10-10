@@ -18,7 +18,7 @@ markers = {}
     center: lat: 55.9411418, lng: -3.2754227
     zoom: 12
 
-  socket = io.connect("http://bustracker.herokuapp.com")
+  socket = io.connect("https://bustracker.herokuapp.com")
 
   socket.on "bus", (vehicle) ->
     return if vehicle.one
